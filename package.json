@@ -2,6 +2,7 @@
   "name": "orientx",
   "version": "0.1.0",
   "description": "An OrientDB development tools",
+  "bin": "./bin/orientx.js",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,6 +15,7 @@
   "author": "Rasool Dastoori",
   "license": "MIT",
   "scripts": {
+    "start": "node ./bin/cli.js",
     "lint": "eslint ."
   },
   "dependencies": {
