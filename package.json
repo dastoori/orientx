@@ -1,0 +1,25 @@
+{
+  "name": "orientx",
+  "version": "0.1.0",
+  "description": "An OrientDB development tools",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dastoori/orientx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dastoori/orientx/issues"
+  },
+  "homepage": "https://github.com/dastoori/orientx#README",
+  "author": "Rasool Dastoori",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint-config-afrasa": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
