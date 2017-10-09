@@ -16,6 +16,28 @@
   "scripts": {
     "lint": "eslint ."
   },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "common-tags": "^1.4.0",
+    "dargs": "^5.1.0",
+    "fs-extra": "^4.0.2",
+    "glob": "^7.1.2",
+    "js-yaml": "^3.10.0",
+    "lodash.flatten": "^4.4.0",
+    "lodash.pick": "^4.4.0",
+    "mem": "^2.0.0",
+    "migrate": "^1.0.0-2",
+    "minimist": "^1.2.0",
+    "npm-run-path": "^2.0.2",
+    "orientjs": "^2.2.7",
+    "p-map": "^1.2.0",
+    "pascal-case": "^2.0.1",
+    "pkg-dir": "^2.0.0",
+    "plur": "^2.1.2",
+    "signal-exit": "^3.0.2",
+    "yup": "^0.22.0"
+  },
   "devDependencies": {
     "eslint-config-afrasa": "^1.0.1"
   },
