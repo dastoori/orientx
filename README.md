@@ -141,6 +141,9 @@ db:
   port: 2424
   username: root
   password: xxxxx
+  type: graph             # [optional]
+  storage: plocal         # [optional]
+  lightweightEdges: true  # [optional]
 ```
 
 ### Create a database
@@ -204,14 +207,13 @@ schedule:
     arguments:                             # [optional]
       a: 1
       b: 2
-    startTime: '2017-02-05T23:59:20.252Z'  # [optional] Parse to javascript `Date`
-    
+    startTime: '2017-02-05T23:59:20.252Z'  # [optional] Parse with `new Date()`
 
 # Cluster
 # https://orientdb.com/docs/last/SQL-Create-Cluster.html
 cluster:
   us: null
-  china: 201
+  asia: 201
   europe:
     name: europe
     id: 202
