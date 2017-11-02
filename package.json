@@ -15,7 +15,7 @@
   "author": "Rasool Dastoori",
   "license": "MIT",
   "scripts": {
-    "start": "node ./bin/cli.js",
+    "start": "node ./bin/orientx.js",
     "lint": "eslint ."
   },
   "dependencies": {
