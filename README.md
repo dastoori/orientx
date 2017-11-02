@@ -269,10 +269,11 @@ class:
                                       #   the index name is like `[CLASS_NAME].[PROPERTY_NAME]`
 # Edge class (same as class)
 edge:
-  parent: E               # [optional, autoPick]
-
+  following: E
+    
   follow:
     name: follow          # [optional, autoPick]
+    parent: E             # [optional, autoPick]
 
     # Edge class properties (same as class properties)
     props:                # [optional]
