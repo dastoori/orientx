@@ -125,7 +125,7 @@ You can set OrientDB server password or other configuration using the following 
 
 #### 3. orientx configuration file
 
-If you installed orientx in your project, you can create an `orientxrc.yaml` file and place it in your project's root directory to be automatically loaded (`orientxrc.json` and `orientxrc.js` are also supported)
+If you installed orientx in your project, you can create an `.orientxrc.yaml` file and place it in your project's root directory to be automatically loaded (`.orientxrc.json` and `.orientxrc.js` are also supported)
 
 Also, you can set orientx configuration file manually using `--config` option:
 
