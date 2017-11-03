@@ -27,7 +27,6 @@
     "glob": "^7.1.2",
     "js-yaml": "^3.10.0",
     "lodash.flatten": "^4.4.0",
-    "lodash.pick": "^4.4.0",
     "mem": "^2.0.0",
     "migrate": "^1.0.0-2",
     "minimist": "^1.2.0",
