@@ -8,7 +8,7 @@ An OrientDB development tools
   <a href="https://raw.githubusercontent.com/dastoori/orientx/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license" /></a></p>
 </p>
 
-**Features**
+### Features
 
 - Create one or more databases with one command!
 - Use multiple schema files to create a database
