@@ -136,11 +136,14 @@ Also, you can set orientx configuration file manually using `--config` option:
 Sample configuration file:
 
 ```yaml
-db:
+server:                   # Server config
   host: localhost
   port: 2424
   username: root
   password: xxxxx
+
+db:                       # Default database configs for all schemas
+  name: MyDatabase        # [optional]
   type: graph             # [optional]
   storage: plocal         # [optional]
   lightweightEdges: true  # [optional]
