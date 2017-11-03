@@ -2,18 +2,18 @@
 
 An OrientDB development tools
 
+<p align="center">
+  <a href="https://github.com/dastoori/orientx/releases"><img src="https://img.shields.io/github/release/dastoori/orientx.svg" alt="GitHub release" /></a>
+  <a href="https://www.npmjs.com/package/orientx"><img src="https://img.shields.io/npm/dm/orientx.svg" alt="NPM Downloads" /></a>
+  <a href="https://raw.githubusercontent.com/dastoori/orientx/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license" /></a></p>
+</p>
+
 **Features**
 
-- Create a database from one or more schema files. its support:
-  - Creating one or more databases
-  - Creating sequence
-  - Creating function
-  - Creating schedule
-  - Creating cluster
-  - Creating class and edge class
-  - Creating class properties
-  - Creating index
-- Migration
+- Create one or more databases with one command!
+- Use multiple schema files to create a database
+- You can use most of the OrientDB features, e.g. cluster, class, edge class, property, index, sequence, function and schedule
+- You can create and manage migrations using `orientjs`
 - Beautiful and meaningful logs and errors
 - It's easy to use
 
@@ -105,9 +105,9 @@ By default orientx uses the following configuration to connect to the OrientDB s
 }
 ```
 
-You can set OrientDB server password or other configuration using the following ways:
+You can set OrientDB server password or other configurations in following ways:
 
-#### 1. CLI options
+#### 1. CLI flags
 
 ```shell
   --odb-host <host>          orientdb server host
@@ -337,7 +337,6 @@ exports.down = async () => {
 ## Credit
 
 [node-migrate](https://github.com/tj/node-migrate) by @tj, used in `migrate` command
-
 
 ## License
 
