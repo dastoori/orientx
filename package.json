@@ -1,6 +1,6 @@
 {
   "name": "orientx",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "An OrientDB development tools",
   "bin": "./bin/orientx.js",
   "main": "index.js",
