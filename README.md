@@ -3,8 +3,8 @@
 An OrientDB development tools
 
 <p align="center">
-  <a href="https://github.com/dastoori/orientx/releases"><img src="https://img.shields.io/github/release/dastoori/orientx.svg" alt="GitHub release" /></a>
-  <a href="https://www.npmjs.com/package/orientx"><img src="https://img.shields.io/npm/dm/orientx.svg" alt="NPM Downloads" /></a>
+  <a href="https://npmjs.com/package/orientx"><img src="https://img.shields.io/npm/v/orientx.svg" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/orientx"><img src="https://img.shields.io/npm/dm/orientx.svg" alt="npm downloads" /></a>
   <a href="https://raw.githubusercontent.com/dastoori/orientx/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license" /></a></p>
 </p>
 
@@ -159,7 +159,7 @@ $ orientx db:create ./schema.yaml
 $ orientx dbc ./schema-*
 ```
 
-or you can use [node-glob pattern](https://github.com/isaacs/node-glob#glob-primer) (you must use quotations)
+or you can use [node-glob pattern](https://github.com/isaacs/node-glob#glob-primer) (it must have quotation marks)
 
 ```shell
 $ orientx db:create './**/schema-@(db1|db2).{yaml,json}'
@@ -226,7 +226,7 @@ class:
   User:
     # https://orientdb.com/docs/last/SQL-Create-Class.html
     name: User             # [optional, autoPick]
-    parent: V              # [optional]
+    superClass: V          # [optional]
     abstract: false        # [optional]
     cluster: 201,202       # [optional]
     
@@ -276,7 +276,7 @@ edge:
     
   follow:
     name: follow          # [optional, autoPick]
-    parent: E             # [optional, autoPick]
+    superClass: E         # [optional, autoPick]
 
     # Edge class properties (same as class properties)
     props:                # [optional]

@@ -27,7 +27,7 @@
     "glob": "^7.1.2",
     "js-yaml": "^3.10.0",
     "lodash.flatten": "^4.4.0",
-    "mem": "^2.0.0",
+    "mem": "^3.0.0",
     "migrate": "^1.0.0-2",
     "minimist": "^1.2.0",
     "npm-run-path": "^2.0.2",
@@ -37,7 +37,7 @@
     "pkg-dir": "^2.0.0",
     "plur": "^2.1.2",
     "signal-exit": "^3.0.2",
-    "yup": "^0.22.0"
+    "yup": "^0.23.0"
   },
   "devDependencies": {
     "eslint-config-afrasa": "^1.0.1"
