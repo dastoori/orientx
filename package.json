@@ -4,6 +4,16 @@
   "description": "An OrientDB development tools",
   "bin": "./bin/orientx.js",
   "main": "index.js",
+  "keywords": [
+    "orientdb",
+    "cli",
+    "nodejs",
+    "devtools",
+    "migration",
+    "schema",
+    "orientjs",
+    "database"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dastoori/orientx.git"
