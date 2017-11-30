@@ -30,15 +30,15 @@
   },
   "dependencies": {
     "chalk": "^2.1.0",
-    "commander": "^2.11.0",
-    "common-tags": "^1.4.0",
+    "commander": "^2.12.2",
+    "common-tags": "^1.5.1",
     "dargs": "^5.1.0",
     "fs-extra": "^4.0.2",
     "glob": "^7.1.2",
     "js-yaml": "^3.10.0",
     "lodash.flatten": "^4.4.0",
     "mem": "^3.0.0",
-    "migrate": "^1.0.0-2",
+    "migrate": "^1.0.0",
     "minimist": "^1.2.0",
     "npm-run-path": "^2.0.2",
     "orientjs": "^2.2.7",
@@ -50,7 +50,7 @@
     "yup": "^0.23.0"
   },
   "devDependencies": {
-    "eslint-config-afrasa": "^1.0.1"
+    "eslint-config-afrasa": "^1.0.3"
   },
   "engines": {
     "node": ">=8.0.0"
