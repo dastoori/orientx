@@ -37,7 +37,7 @@
     "glob": "^7.1.2",
     "js-yaml": "^3.10.0",
     "lodash.flatten": "^4.4.0",
-    "mem": "^3.0.0",
+    "mem": "^4.0.0",
     "migrate": "^1.0.0",
     "minimist": "^1.2.0",
     "npm-run-path": "^2.0.2",
